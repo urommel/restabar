@@ -34,11 +34,11 @@ class DatabaseSeeder extends Seeder
 
         Table::factory()->count(5)
             ->state(new Sequence(
-                ['id' => 1, 'name' => 'Table 1'],
-                ['id' => 2, 'name' => 'Table 2'],
-                ['id' => 3, 'name' => 'Table 3'],
-                ['id' => 4, 'name' => 'Table 4'],
-                ['id' => 5, 'name' => 'Table 5'],
+                ['id' => 1, 'name' => 'Mesa 1'],
+                ['id' => 2, 'name' => 'Mesa 2'],
+                ['id' => 3, 'name' => 'Mesa 3'],
+                ['id' => 4, 'name' => 'Mesa 4'],
+                ['id' => 5, 'name' => 'Mesa 5'],
             ))
             ->create();
         MenuEntry::factory()->count(10)
